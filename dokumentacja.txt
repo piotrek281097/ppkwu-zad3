@@ -1,0 +1,17 @@
+Autor: Piotr Plecinski 209432
+
+Dokumentacja projektu Mobilny kalendarz Weeia
+
+
+Metoda GET
+http://localhost:8080/api/calendar/{year}/{month}
+
+Parametry: 
+year(string) - rok, z ktorego sa pobrane wydarzenia z kalendarza weeia
+month(string) - miesiac, z ktorego sa pobrane wydarzenia z kalendarza weeia
+
+Metoda zwraca plik w formacie .ics w ktorym dla danego roku(year) i miesiaca(month) zostaly zapisane wydrzenia z kalendarza weeia
+
+Przyk≥ad
+Zapytanie: http://localhost:8080/api/calendar/2019/12
+Odpowiedü:Zwrocony zostanie plik formatu .ics w ktorym zapisane sa wydarzenia z grudnia(12) 2019 roku
